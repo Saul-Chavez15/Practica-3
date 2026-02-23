@@ -1,0 +1,12 @@
+C:\Saúl 24815\Practica3\Practica3\bin\Debug\Practica3.exe.config
+C:\Saúl 24815\Practica3\Practica3\bin\Debug\Practica3.exe
+C:\Saúl 24815\Practica3\Practica3\bin\Debug\Practica3.pdb
+C:\Saúl 24815\Practica3\Practica3\bin\Debug\Practica3.xml
+C:\Saúl 24815\Practica3\Practica3\obj\Debug\Practica3.vbprojAssemblyReference.cache
+C:\Saúl 24815\Practica3\Practica3\obj\Debug\Practica3.Form1.resources
+C:\Saúl 24815\Practica3\Practica3\obj\Debug\Practica3.Resources.resources
+C:\Saúl 24815\Practica3\Practica3\obj\Debug\Practica3.vbproj.GenerateResource.cache
+C:\Saúl 24815\Practica3\Practica3\obj\Debug\Practica3.vbproj.CoreCompileInputs.cache
+C:\Saúl 24815\Practica3\Practica3\obj\Debug\Practica3.exe
+C:\Saúl 24815\Practica3\Practica3\obj\Debug\Practica3.xml
+C:\Saúl 24815\Practica3\Practica3\obj\Debug\Practica3.pdb
