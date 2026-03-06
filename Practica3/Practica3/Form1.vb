@@ -1,7 +1,9 @@
 ﻿Public Class Form1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim mat1, mat2, mat3, mat4, mat5, mat6, mat7, mat8, mat9, mat10, mat11, mat12, mat13 As Double
+        Dim mat1, mat2, mat3, mat4, mat5 As Double
+        Dim mat6, mat7, mat8, mat9, mat10 As Double
+        Dim mat11, mat12, mat13 As Double
         Dim promedio As Double
 
         mat1 = Val(Materia1.Text)
@@ -20,7 +22,21 @@
 
         promedio = (mat1 + mat2 + mat3 + mat4 + mat5 + mat6 + mat7 + mat8 + mat9 + mat10 + mat11 + mat12 + mat13) / 13
 
-        resultado.Text = promedio.ToString()
+        Dim redondeo As Double = Math.Round(promedio, 1)
+
+        resultado.Text = redondeo.ToString()
+
+        If promedio = 10 Then
+            Mensaje.BackColor = Color.Lime
+            Mensaje.Text = "¡Muy bien!"
+
+        ElseIf redondeo >= 6 Then
+            Mensaje.BackColor = Color.Green
+            Mensaje.Text = "Aprobado"
+        Else
+            Mensaje.BackColor = Color.Red
+            Mensaje.Text = "Reprobado"
+        End If
 
     End Sub
 
